@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lisa rayada y microplásticos</title>
+  <meta name="theme-color" content="#0a3a8a">
+  <meta name="description" content="Proyecto de aula sobre la ingestión de microplásticos en la lisa rayada (Mugil incilis) de la Ciénaga Grande de Santa Marta, Colombia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/recorrido.js" defer></script>
+  <script src="js/recorrido-web.js" defer></script>
+  <script src="js/juego.js" defer></script>
+  <script src="js/muestreo.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Ir al contenido</a>
+
+  <header class="top">
+    <a class="brand" href="#inicio">Lisa rayada y microplásticos</a>
+    <nav aria-label="Secciones">
+      <a href="#contexto">Contexto</a>
+      <a href="#objetivos">Objetivos</a>
+      <a href="#metodo">Método</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#recorrido">Recorrido</a>
+      <a href="#juega">Juega</a>
+      <a href="#recomendaciones">Recomendaciones</a>
+      <a href="#fuentes">Fuentes</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <h1>10 de 46 lisas rayadas tenían microplásticos en el tracto digestivo</h1>
+      <p class="lede">Proyecto de aula sobre la lisa rayada (<i>Mugil incilis</i>) en la Ciénaga Grande de Santa Marta, Colombia.</p>
+
+      <figure class="school">
+        <div id="school" class="school-grid" role="img" aria-label="Cuadrícula de 46 peces. Diez tienen una fibra de microplástico en el tracto digestivo.">
+          <noscript><p>46 lisas rayadas analizadas; 10 tenían microplásticos.</p></noscript>
+        </div>
+        <figcaption>
+          <span class="legend"><svg class="key with-fiber" viewBox="-1 -1 54 21.9" aria-hidden="true"><use href="#fish-with-fiber"/></svg> Con microplásticos: 10</span>
+          <span class="legend"><svg class="key" viewBox="-1 -1 54 21.9" aria-hidden="true"><use href="#fish"/></svg> Sin microplásticos: 36</span>
+          <span class="note">Cada pez es un individuo analizado. La posición en la cuadrícula es ilustrativa. Dato: Calderón et al. (2019).</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="block" id="video">
+      <h2>Video</h2>
+      <div class="prose">
+        <p>Un resumen de 42 segundos: el recorrido de una fibra y lo que encontraron los estudios. El video no tiene sonido; los textos van en pantalla.</p>
+        <video class="video" controls preload="metadata" poster="assets/img/poster-video.jpg" playsinline>
+          <source src="assets/video/lisa-rayada-microplasticos.mp4" type="video/mp4">
+          Tu navegador no reproduce este video. <a href="assets/video/lisa-rayada-microplasticos.mp4">Descárgalo aquí</a>.
+        </video>
+        <p class="small">Animación hecha con código a partir de la silueta de la lisa y de los datos de las fuentes. El recorrido es un esquema simplificado, no el seguimiento real de una fibra.</p>
+      </div>
+    </section>
+
+    <section class="block" id="contexto">
+      <h2>Contexto</h2>
+      <div class="prose">
+        <p>La Ciénaga Grande de Santa Marta es un complejo lagunar-estuarino del Caribe colombiano. Ocupa 464.784 hectáreas y es sitio Ramsar, es decir, un humedal de importancia internacional (<a href="https://www.minambiente.gov.co/otras-medidas-efectivas-de-conservacion/sistema-delta-estuarino-del-rio-magdalena-cienaga-grande-de-santa-marta/">Ministerio de Ambiente</a>).</p>
+        <p>Los microplásticos son partículas plásticas menores de cinco milímetros. En este ecosistema se han encontrado en el agua, en los sedimentos y dentro de peces que la gente consume.</p>
+        <p>Elegimos la lisa rayada porque tuvo la mayor frecuencia de ingestión entre las cuatro especies que analizaron Calderón et al. (2019). Así delimitamos el trabajo a un pez y a un lugar.</p>
+        <p class="question"><strong>Pregunta de investigación.</strong> ¿Cuál es la evidencia científica sobre la ingestión de microplásticos por la lisa rayada en la Ciénaga Grande de Santa Marta, y cuáles son sus posibles implicaciones fisiológicas?</p>
+      </div>
+    </section>
+
+    <section class="block" id="objetivos">
+      <h2>Objetivos</h2>
+      <div class="prose">
+        <h3>Objetivo general</h3>
+        <p>Describir la ingestión de microplásticos en la lisa rayada (<i>Mugil incilis</i>) de la Ciénaga Grande de Santa Marta y explicar sus posibles efectos fisiológicos, a partir de la revisión de estudios científicos publicados.</p>
+        <h3>Objetivos específicos</h3>
+        <ol class="goals">
+          <li>Identificar la frecuencia de ingestión y el tipo de microplásticos reportados en <i>Mugil incilis</i>.</li>
+          <li>Describir las principales fuentes y zonas de acumulación de microplásticos en la Ciénaga Grande de Santa Marta.</li>
+          <li>Explicar los posibles efectos fisiológicos de la ingestión de microplásticos en peces, diferenciando lo comprobado en <i>Mugil incilis</i> de lo reportado en otras especies.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="block" id="metodo">
+      <h2>Método</h2>
+      <div class="prose">
+        <p>Hicimos una revisión bibliográfica. Buscamos artículos científicos sobre microplásticos en peces de la Ciénaga Grande de Santa Marta y sobre sus efectos en peces en general.</p>
+        <p>Dimos prioridad a los estudios hechos en Colombia. Al leerlos separamos dos tipos de evidencia: la que se midió en <i>Mugil incilis</i> y la que viene de otras especies.</p>
+        <p>Usamos cuatro artículos, todos en inglés. Los detalles están en <a href="#fuentes">Fuentes</a>.</p>
+      </div>
+    </section>
+
+    <section class="block" id="resultados">
+      <h2>Resultados</h2>
+      <div class="prose">
+
+        <h3>Objetivo 1. Frecuencia y tipo de microplásticos en la lisa rayada</h3>
+        <div class="evidence direct">
+          <p class="tag">Evidencia directa en <i>Mugil incilis</i></p>
+          <p>Calderón et al. (2019) analizaron 140 peces de cuatro especies, comprados en el mercado local de la Ciénaga Grande de Santa Marta, y confirmaron el plástico con espectroscopía infrarroja (FT-IR).</p>
+          <p>En la lisa rayada, 10 de 46 individuos (21,7 %) tenían microplásticos en el tracto gastrointestinal. Fue la frecuencia más alta de las cuatro especies. Entre las partículas encontradas, el 89,5 % eran fibras y el 10,5 %, fragmentos. Los polímeros más comunes fueron poliéster y polietileno.</p>
+        </div>
+
+        <h3>Objetivo 2. Fuentes y zonas de acumulación</h3>
+        <div class="evidence context">
+          <p class="tag">Evidencia del ecosistema</p>
+          <p>Garcés-Ordóñez et al. (2022) midieron microplásticos en agua, sedimentos y nueve especies de peces comerciales de la misma ciénaga. Los encontraron en 100 de 474 peces (21,1 %), sobre todo fibras y fragmentos.</p>
+          <p>Las concentraciones fueron mayores cerca de las desembocaduras de los ríos y de las zonas urbanas con mucha actividad pesquera y acuícola. Esto indica que las partículas no se reparten de forma pareja: siguen el agua y las actividades humanas.</p>
+        </div>
+
+        <h3>Objetivo 3. Posibles efectos fisiológicos</h3>
+        <div class="evidence direct">
+          <p class="tag">Evidencia directa en <i>Mugil incilis</i></p>
+          <p>El estudio de Calderón et al. demuestra ingestión. No mide si las partículas pasan a otros tejidos ni si dañan al pez.</p>
+        </div>
+        <div class="evidence other">
+          <p class="tag">Evidencia en otras especies</p>
+          <p>Foley et al. (2018) reunieron 43 estudios sobre peces e invertebrados acuáticos. Encontraron efectos negativos dentro de cada grupo, pero muchos resultados fueron neutros: el impacto cambia según la especie. El efecto más constante fue que los animales comían menos alimento natural cuando había microplásticos.</p>
+        </div>
+
+        <h3>Cumplimiento del objetivo general</h3>
+        <p class="conclusion">La lisa rayada tiene ingestión documentada de microplásticos en la Ciénaga Grande de Santa Marta. Esa exposición podría afectar la digestión y la alimentación, pero todavía faltan estudios experimentales en esta especie para confirmarlo.</p>
+      </div>
+    </section>
+
+    <section class="journey" id="recorrido" aria-labelledby="recorrido-h">
+      <div class="journey-pin">
+        <div class="journey-panel">
+          <h2 id="recorrido-h">Recorrido de una fibra</h2>
+          <p class="journey-hint">Baja por la página o mueve el control para seguir la fibra.</p>
+          <canvas id="j-canvas" class="journey-canvas" width="1280" height="720" role="img" aria-label="Esquema: una fibra de plástico sale de una tela, baja por un río hasta la ciénaga y es ingerida por una lisa rayada."></canvas>
+          <div class="journey-cap" aria-live="polite">
+            <h3 id="j-title"></h3>
+            <p id="j-text"></p>
+          </div>
+          <label class="journey-range">
+            <span>Avance de la fibra</span>
+            <input id="j-range" type="range" min="0" max="1000" value="0">
+          </label>
+          <p class="small journey-note">Esquema simplificado: es una ilustración, no el seguimiento real de una fibra.</p>
+          <noscript><ol class="small"><li>Una fibra de plástico se suelta de textiles sintéticos o de plásticos fragmentados.</li><li>Llega al agua cerca de la desembocadura de un río.</li><li>Se queda en el agua y el sedimento de la ciénaga.</li><li>La lisa la ingiere: 10 de 46 lisas tenían microplásticos (Calderón et al., 2019).</li></ol></noscript>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="juega">
+      <h2>Juega</h2>
+      <div class="play">
+
+        <h3>Nada con la lisa</h3>
+        <p>Mueve la lisa con el mouse, con el dedo o con las flechas del teclado. Come plancton (puntos verdes) y esquiva las fibras de plástico (líneas coral). Dura 45 segundos.</p>
+        <div class="stage" id="juego-stage">
+          <canvas id="juego-canvas" role="img" aria-label="Juego: una lisa rayada nada contra la corriente, come plancton y esquiva fibras de plástico."></canvas>
+          <div class="hud" aria-hidden="true">
+            <span>Tiempo <b id="hud-time">45</b></span>
+            <span>Plancton <b id="hud-food">0</b></span>
+            <span>Fibras <b id="hud-fiber">0</b></span>
+          </div>
+          <div class="overlay" id="juego-overlay">
+            <div class="overlay-card">
+              <p id="juego-msg" aria-live="polite">En la ciénaga, la corriente trae plancton y también fibras de plástico. ¿Cuántas fibras puedes esquivar?</p>
+              <button class="btn" id="juego-start" type="button">Empezar</button>
+            </div>
+          </div>
+        </div>
+        <p class="small">Este juego es ilustrativo. No es un modelo científico y no mide efectos en los peces.</p>
+
+        <h3 class="second">Pesca una muestra</h3>
+        <p>Calderón et al. revisaron 46 lisas y encontraron microplásticos en 10. ¿Qué pasaría si repitieran el estudio? Supongamos que en la ciénaga el 21,7 % de las lisas tiene microplásticos. El simulador pesca muestras al azar con esa probabilidad.</p>
+        <div class="lab" id="muestreo">
+          <div class="lab-controls">
+            <div class="chips" role="group" aria-labelledby="m-label">
+              <span id="m-label">Lisas por muestra</span>
+              <button type="button" class="chip" data-n="10" aria-pressed="false">10</button>
+              <button type="button" class="chip" data-n="46" aria-pressed="true">46</button>
+              <button type="button" class="chip" data-n="100" aria-pressed="false">100</button>
+              <button type="button" class="chip" data-n="500" aria-pressed="false">500</button>
+            </div>
+            <div class="lab-actions">
+              <button type="button" class="btn" id="m-one">Pescar una muestra</button>
+              <button type="button" class="btn ghost" id="m-many">Pescar 20 muestras</button>
+              <button type="button" class="btn ghost" id="m-reset">Borrar</button>
+            </div>
+          </div>
+          <div id="m-fish" class="sample-grid" aria-hidden="true"></div>
+          <div class="bar" id="m-bar" aria-hidden="true"><span></span></div>
+          <p id="m-readout" class="readout" aria-live="polite"></p>
+          <svg id="m-plot" class="plot" role="img" aria-label="Gráfico de puntos vacío."></svg>
+          <p id="m-summary" class="readout"></p>
+        </div>
+        <p class="small">Con pocas lisas, el resultado cambia mucho de una muestra a otra. Con más lisas, se acerca a 21,7 %. Por eso 10 de 46 es una estimación y no una cifra exacta para toda la ciénaga. Además, los peces del estudio se compraron en un mercado local, y eso podría no representar a todas las lisas de la ciénaga.</p>
+      </div>
+    </section>
+
+    <section class="block" id="recomendaciones">
+      <h2>Recomendaciones</h2>
+      <div class="prose">
+        <p>Salen de los vacíos que dejan los estudios revisados.</p>
+
+        <h3>Para la investigación</h3>
+        <ol>
+          <li>Hacer estudios experimentales en <i>Mugil incilis</i> que midan alimentación, crecimiento y estrés oxidativo. Calderón et al. (2019) demuestran ingestión pero no efectos, y Foley et al. (2018) muestran que el impacto cambia según la especie.</li>
+          <li>Analizar más lisas, en varios sitios y épocas del año y no solo las compradas en un mercado. Con 46 peces de un mismo origen, el 21,7 % es una estimación, no un valor para toda la ciénaga.</li>
+          <li>Medir al mismo tiempo el agua, el sedimento y los peces, con el mismo método de identificación (FT-IR), para poder comparar entre estudios.</li>
+        </ol>
+
+        <h3>Para el monitoreo y la gestión</h3>
+        <ol start="4">
+          <li>Dar prioridad al monitoreo de las desembocaduras de los ríos y de las zonas urbanas con mucha pesca y acuicultura, donde Garcés-Ordóñez et al. (2022) encontraron más microplásticos.</li>
+          <li>Estudiar de dónde vienen las fibras. Son la forma más común y el poliéster es uno de los polímeros más frecuentes (Calderón et al., 2019), así que conviene investigar si los textiles sintéticos y las aguas residuales contribuyen. Los estudios revisados no lo comprueban.</li>
+        </ol>
+
+        <h3>Para la comunidad</h3>
+        <ol start="6">
+          <li>Informar a pescadores y consumidores con lenguaje claro: la ingestión en la lisa rayada está demostrada, pero los estudios revisados no evalúan riesgos para la salud humana. Los mensajes deben evitar tanto la alarma como la tranquilidad sin respaldo.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="block" id="fuentes">
+      <h2>Fuentes</h2>
+      <div class="prose">
+        <ul class="refs">
+          <li>Calderón, E. A., Hansen, P., Rodríguez, A., Blettler, M. C. M., Syberg, K. y Khan, F. R. (2019). Microplastics in the digestive tracts of four fish species from the Ciénaga Grande de Santa Marta estuary in Colombia. <i>Water, Air, and Soil Pollution, 230</i>, 257. <a href="https://doi.org/10.1007/s11270-019-4313-8">doi.org/10.1007/s11270-019-4313-8</a></li>
+          <li>Garcés-Ordóñez, O., Saldarriaga-Vélez, J., Espinosa-Díaz, L. F., Patiño, A., Miquel, J., Mejía, K., Fragozo, L., Sáenz, S., Córdoba, T. y Thiel, M. (2022). Microplastic pollution in water, sediments and commercial fish species from Ciénaga Grande de Santa Marta lagoon complex, Colombian Caribbean. <i>Science of the Total Environment, 829</i>, 154643. <a href="https://doi.org/10.1016/j.scitotenv.2022.154643">doi.org/10.1016/j.scitotenv.2022.154643</a></li>
+          <li>Foley, C. J., Feiner, Z. S., Malinich, T. D. y Höök, T. O. (2018). A meta-analysis of the effects of exposure to microplastics on fish and aquatic invertebrates. <i>Science of the Total Environment, 631-632</i>, 550-559. <a href="https://doi.org/10.1016/j.scitotenv.2018.03.046">doi.org/10.1016/j.scitotenv.2018.03.046</a></li>
+          <li>Ministerio de Ambiente y Desarrollo Sostenible. Sistema Delta Estuarino del río Magdalena, Ciénaga Grande de Santa Marta. <a href="https://www.minambiente.gov.co/otras-medidas-efectivas-de-conservacion/sistema-delta-estuarino-del-rio-magdalena-cienaga-grande-de-santa-marta/">minambiente.gov.co</a></li>
+          <li class="verify">Rojas-Luna, R. A. et al. (2025). Widespread microplastic ingestion in Colombian Caribbean marine fish: Trophic influence, spatial-temporal trends, and polymer composition. <i>Marine Pollution Bulletin, 221</i>, 118603. Esta referencia está en verificación y no se usa en los resultados.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p><strong>Proyecto de aula, Universidad del Norte, 2026.</strong></p>
+    <p>Sofía Miranda, Jorge Mosquera, Juliana Schultz, Giselle Torres y Salvador Sáenz.</p>
+    <p><a href="https://github.com/">Repositorio en GitHub</a></p>
+  </footer>
+
+  <!-- Símbolos reutilizables de los peces -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <g id="fish" style="fill:var(--fish-fill,#b0def8);stroke:var(--fish-stroke,#e2f4ff);stroke-width:0.7;stroke-linejoin:round">
+        <path d="M0.04 8.62 L0.20 9.06 L0.00 9.30 L0.11 9.55 L2.86 11.02 L4.99 11.97 L7.90 12.98 L14.36 14.45 L14.65 14.85 L16.15 18.17 L16.43 18.26 L17.11 19.40 L17.55 19.77 L17.84 19.84 L19.12 18.10 L19.64 16.15 L19.42 15.88 L18.19 15.07 L18.10 14.85 L20.04 15.02 L21.75 15.00 L28.95 14.45 L29.21 14.63 L30.25 16.28 L31.96 18.15 L32.40 18.37 L32.58 18.26 L33.85 15.75 L35.06 14.50 L36.67 13.31 L36.65 13.18 L35.17 12.89 L35.68 12.67 L38.32 12.34 L40.89 12.36 L43.77 13.24 L48.19 14.98 L49.91 15.27 L51.47 15.22 L51.60 15.09 L50.44 13.57 L49.65 12.03 L48.88 11.06 L48.57 10.18 L48.85 9.57 L49.62 8.93 L50.90 6.91 L51.03 6.20 L51.98 5.54 L51.16 5.28 L48.72 5.54 L46.52 6.25 L42.26 7.90 L40.45 8.05 L38.91 7.83 L36.69 7.19 L37.99 7.19 L38.08 7.08 L36.56 4.62 L36.43 3.08 L36.23 2.42 L36.05 2.29 L35.50 2.40 L33.17 3.94 L31.37 5.48 L24.44 5.04 L24.31 4.82 L24.61 4.16 L24.31 3.70 L24.28 3.15 L24.99 1.91 L24.50 1.76 L24.24 1.47 L24.20 0.70 L23.58 0.77 L23.27 0.59 L23.16 0.00 L21.97 1.52 L20.17 4.51 L19.93 4.71 L16.32 4.84 L12.34 5.19 L6.03 6.03 L2.40 6.95 L0.86 7.76Z"/>
+        <circle cx="5.6" cy="8.4" r="0.75" style="fill:var(--fish-eye,#fff);stroke:none"/>
+      </g>
+      <g id="fish-with-fiber">
+        <use href="#fish"/>
+        <path d="M14 9.8q2.7-3.4 5.4 0t5.4 0t5.4 0" style="fill:none;stroke:#ff6a45;stroke-width:1.3;stroke-linecap:round"/>
+      </g>
+    </defs>
+  </svg>
+</body>
+</html>
